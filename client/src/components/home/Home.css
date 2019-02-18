@@ -1,0 +1,39 @@
+.Home h1 {
+  font-weight: bold !important;
+  text-shadow: 4px 2px 1px #111;
+}
+
+.Home p {
+  text-shadow: 2px 2px 1px #111;
+}
+
+.Home a {
+  padding: 1rem 2rem !important;
+  margin: .25em;
+  border-radius: .25em;
+  box-shadow: 4px 4px 1px #111;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+.Home a:hover {
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.Home .btn-signup {
+  color: #333;
+}
+
+.Home .btn-login {
+  background: #333;
+}
+
+.Home .jumbotron {
+  background-image: url('../../images/img-2.jpg');
+  background-size: cover;
+  background-position: left;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}

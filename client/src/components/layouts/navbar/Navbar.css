@@ -1,0 +1,12 @@
+nav {
+  z-index: 100;
+  background: #333;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.active {
+  color: #ffff !important;
+}
